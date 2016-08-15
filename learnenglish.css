@@ -1,8 +1,36 @@
-body{
-	background-image: url("http://imaginegnats.com/wp-content/uploads/2014/07/double-gauze-solid-blue-grey.jpg");
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
-h1 {
-	font: 40px; 
+li {
+    float: left;
 }
-#99CD4E color green
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: white;
+}
+
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+h2 {
+	font-size: 50px;
+	color: lime;
+	font-family:  Impact, Charcoal, sans-serif;
+}
+
+body{ 
+	background-color: aliceblue;
+	
+
+}
