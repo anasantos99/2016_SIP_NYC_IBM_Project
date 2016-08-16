@@ -1,0 +1,78 @@
+
+<html>
+
+  <head>
+		<title> Learn Ingl&eacutes </title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel = "contact" href="contact.html">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel = "stylesheet" href= "learnenglish.css">
+   </head>
+
+<body>
+
+
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 <h1 style="font-family:Arial Black;font-size:600%;text-align:center;">C&oacute;mo Todo Comens&oacute;</h1></h3>
+   
+</div>
+
+
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin"> Las Creadoras </h3>
+  <div class="row">
+
+    <div class="col-sm-3">
+     
+	  <h1 style="font-family:Arial Black;font-size:100%;text-align:center;">Catherine Mendoza</h1>
+	  
+	  <img src="cathy.jpg"  class="img-responsive img-circle margin" style="display:inline" alt="Figure_000" width="300" height="300">
+      
+    </div>
+    <div class="col-sm-3">
+      
+	<h1 style="font-family:Arial Black;font-size:100%;text-align:center;">Vanessa Mendoza</h1>
+	  <img src="picture2.jpg" class="img-responsive img-circle margin" style="display:inline" alt="picture2" width="300" height="300">
+      
+    </div>
+ <div class="col-sm-3">
+     <h1 style="font-family:Arial Black;font-size:100%;text-align:center;">Jamiles Jimenez</h1>
+	  
+	  <img src="clock.jpg"  class="img-responsive img-circle margin" style="display:inline" alt="Figure_000" width="300" height="300">
+      
+    </div>
+<div class="col-sm-3">
+     
+	  <h1 style="font-family:Arial Black;font-size:100%;text-align:center;">Ana Santos</h1>
+	  <img src="ana.jpg"  class="img-responsive img-circle margin" style="display:inline" alt="Figure_000" width="300" height="300">
+     
+    </div>
+  </div>
+
+ 
+
+
+ <h2> Hola, somos un grupo de mujeres y aprendimos a programar en un programa llamado "Niñas que de código." Somos un grupo de chicas adolescentes que están motivados frunciendo nuestra carrer en ingeniería de computadora. Hemos hecho de este sitio web,  proque tenemos  padres que hablan espaniol que necesitan nuestra ayuda todos los días para traducir para ellos.Por ello hemos creado esto para ayudar a las personas de habla hispana para aprender Inglés , y ayudarles en situaciones . </h2>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
