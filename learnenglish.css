@@ -58,12 +58,7 @@ body{
 	color: black;
 
 } 
-/*
-.navbar-default{
-	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
-	font-size: 25px;
-	color: rgb(0,0,0); 
-}*/
+
 .item{
   display: block;
   margin: 0 auto;
@@ -71,11 +66,4 @@ body{
   height: 600px;
   max-height: 600px;
 }
-/*
-.carousel {
-    height: 600px;
-}
 
-#doctor{
-	height:500px;
-}
