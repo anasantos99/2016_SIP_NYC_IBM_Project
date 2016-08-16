@@ -9,7 +9,7 @@
 <p>If you have any questions or suggestions you can contact us through email or our facebook page.</p>
 </div>
 
-<ul class="w3-navbar w3-black">
+<ul class="w3-navbar">
   <li><a href="#" onclick="openCity('Email')">Email</a></li>
   <li><a href="#" onclick="openCity('Facebook')">Facebook</a></li>
   <li><a href="#" onclick="openCity('Comments')">Comments</a></li>
