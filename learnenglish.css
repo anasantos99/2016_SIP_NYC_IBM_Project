@@ -33,3 +33,13 @@ body{
 	font-size: 30px;
 	color: rgb(0,0,0); 
 }
+.item{
+  display: block;
+  margin: auto;
+  width: 840px;
+  height: 600px;
+  max-height: 600px;
+}
+.carousel {
+    height: 600px;
+}
