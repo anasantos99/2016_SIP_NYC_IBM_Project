@@ -8,6 +8,13 @@ body{
 .navbar-header{
 	color:black;
 }
+.w3-navbar {
+  background: white; 
+}
+#words{
+    width: 700px;
+    height: 250px;
+}
 
 .nav navbar-nav {
 	font-size: 35px;
