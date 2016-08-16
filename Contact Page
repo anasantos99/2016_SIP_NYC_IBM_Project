@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<body>
+
+<div class="w3-container">
+<h2>Contact Us</h2>
+<p>If you have any questions or suggestions you can contact us through email or our facebook page.</p>
+</div>
+
+<ul class="w3-navbar w3-black">
+  <li><a href="#" onclick="openCity('Email')">Email</a></li>
+  <li><a href="#" onclick="openCity('Facebook')">Facebook</a></li>
+  <li><a href="#" onclick="openCity('Comments')">Comments</a></li>
+</ul>
+
+<div id="Email" class="w3-container city">
+  <h2>Email</h2>
+  <p>Our Emails </p>
+  <ul>
+  <li>ana.santos.0818@gmail.com</li>
+  <li>jamilesjimenez@gmail.com</li>
+  <li> medozallcat@gmail.com</li>
+  <li> vanessam363@gmail.com</li>
+</ul>
+
+
+
+ 
+  
+</div>
+
+<div id="Facebook" class="w3-container city">
+  <h2>Facebook</h2>
+<a target="_blank" title="follow me on facebook" href="http://www.facebook.com/PLACEHOLDER"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/badgefacebook.png" border=0></a>
+
+
+ 
+  <p>Our facebook.</p>
+ 
+
+ 
+
+
+</div>
+
+<div id ="Comments" class="w3-container city">
+    <h2>Comments</h2>
+    <p> Comments.</p>
+<meta charset="UTF-8" />
+
+<title> HTML5 page </title>
+
+</head>
+<body>
+
+<form>
+<textarea id="words" rows="10" cols="20">Enter comment</textarea>
+<input type="button" onclick="getwords()" value="Enter" /> <br>
+<p id="para"></p>
+</form>
+
+<script type="text/javascript">
+function getwords() {
+  text = words.value;
+  document.getElementById("para").innerHTML += '<p>'+text
+  document.getElementById("words").value = "enter"
+}
+</script>
+
+
+<script>
+openCity("London")
+function openCity(cityName) {
+    var i;
+    var x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    document.getElementById(cityName).style.display = "block";
+}
+</script>
+
+</body>
+
+
+
+
+
+</html>
