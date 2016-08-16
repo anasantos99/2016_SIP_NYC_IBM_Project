@@ -6,6 +6,13 @@ body{
 	font-size: 30px;
 	color: rgb(0,0,0); 
 }
+.caret{
+    margin-top: 10px;
+}
+
+.dropdown-toggle{
+    margin-top: 0px;
+}
 
 .active{
 	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
