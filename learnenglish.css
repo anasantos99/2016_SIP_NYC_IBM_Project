@@ -1,36 +1,35 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+body{
+	background: linear-gradient(to left, lightskyblue, white)
+}
+.navbar-brand {
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	font-size: 30px;
+	color: rgb(0,0,0); 
 }
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    padding: 8px;
-    background-color: white;
-}
-
-
-/* Change the link color on hover */
-li a:hover {
-    background-color: #555;
-    color: white;
-}
-
-h2 {
-	font-size: 50px;
-	color: lime;
-	font-family:  Impact, Charcoal, sans-serif;
-}
-
-body{ 
-	background-color: aliceblue;
+.active{
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	font-size: 30px;
+	color:black;
 	
+}
 
+.container-fluid{ 
+	background-color: lightskyblue;
+	font-size: 25px;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	color: black;
+	
+}
+.dropdown-menu{
+	background-color: lightskyblue;
+	font-size: 25px;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	color: black;
+
+} 
+.navbar-default{
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	font-size: 30px;
+	color: rgb(0,0,0); 
 }
