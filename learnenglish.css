@@ -70,7 +70,58 @@ body{
 .item{
   display: block;
   margin: 0 auto;
-  width: 100%
+  width: 100%;
   height: 600px;
   max-height: 600px;
+}
+.round-button {
+	width:25%;
+}
+#button1{
+	margin-left:400px;
+	
+}
+#button2{
+	margin-left: 930px;
+	margin-top: -500px;
+}
+#button3{
+	margin-top: 30px;
+	margin-left: 400px;
+}
+#button4{
+	margin-left: 930px;
+	margin-top: -500px;
+}
+.round-button-circle {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+	margin-left: 50px;
+    
+    background: #4679BD; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+	background:lightskyblue;
+}
+
+.round-button a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:White;
+    font-family:  Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+    font-size:35px;
+    font-weight:bold;
+    text-decoration:none;
 }
