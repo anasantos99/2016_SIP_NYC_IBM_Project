@@ -25,6 +25,7 @@ body{
 	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
 	font-size: 35px;
 }
+
 .carousel-caption{
 	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
 	color: white;
@@ -35,20 +36,20 @@ body{
 	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
 	color: black;
 	font-size: 35px;
-	left: 40px;
+	left: 20px;
 	position: absolute;
 	padding: 20px;
 
 }
 #description {
-	padding-top: 80px;
+	padding-top: 70px;
 	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
 	color: black;
 	font-size: 35px;
 	text-align: justify;
 	position: absolute;
-	left: 60px;
-	right: 60px;
+	left: 40px;
+	right: 40px;
 	 
  }
 .container-fluid{ 
