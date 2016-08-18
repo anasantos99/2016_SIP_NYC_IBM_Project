@@ -9,6 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel = "stylesheet" href= "learnenglish.css">
+		<script src  = "materias.js"></script>
 	</head>
 <body>
 	<nav class="navbar navbar-default">
@@ -46,5 +47,46 @@
 		</div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+	<!-- /.button/-->
+	<div>
+	<p class= "spanish">Escritura</p>
+	<button class= "button" onclick="writing()">Traducir</button>
+		<p class= "english" id="writing"></p>
+	</div>
+	<div>
+	<p class="spanish">Ciencia</p>
+	<button class="button" onclick="science()">Traducir</button>
+		<p class= "english" id="science"></p>
+	</div>
+		<div>
+	<p class="spanish">Historia</p>
+	<button class="button" onclick="history()">Traducir</button>
+		<p class= "english" id="history"></p>
+	</div>
+	<div>
+	<p class="spanish">Educación Física</p>
+	<button class="button" onclick="gym()">Traducir</button>
+		<p class= "english" id="gym"></p>
+	</div>
+	<div>
+	<p class="spanish">Química</p>
+	<button class="button2" onclick="chem()">Traducir</button>
+		<p class= "english" id="chem"></p>
+	</div>                                                                                 
+	<!-- <div> 
+	<p class="spanish">Arte</p>
+	<button class="button2" onclick="art()">Traducir</button>
+		<p class= "english" id="art"></p>
+	</div>
+		<div>
+	<p class="spanish">Matemáticas</p>
+	<button class="button2" onclick="math()">Traducir</button>
+		<p class= "english" id="math"></p>
+	</div>
+		<div>
+	<p class="spanish">Música</p>
+	<button class="button2" onclick="music()">Traducir</button>
+		<p class= "english" id="music"></p>
+	div-->
 </body>
 </html>
