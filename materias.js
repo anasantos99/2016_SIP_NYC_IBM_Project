@@ -22,3 +22,27 @@ function math() {
 function music() {
 	document.getElementById("music").innerHTML = "Music";
 }
+function physics() {
+	document.getElementById("physics").innerHTML = "Physics";
+}
+function bio() {
+	document.getElementById("bio").innerHTML = "Biology";
+}
+function earth() {
+	document.getElementById("earth").innerHTML = "Earth Science";
+}
+function astro() {
+	document.getElementById("astro").innerHTML = "Astronomy";
+}
+function italian() {
+	document.getElementById("italian").innerHTML = "Italian";
+}
+function french() {
+	document.getElementById("french").innerHTML = "French";
+}
+function chinese() {
+	document.getElementById("chinese").innerHTML = "Chinese";
+}
+function greek() {
+	document.getElementById("greek").innerHTML = "Greek";
+}
