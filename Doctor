@@ -9,6 +9,8 @@
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel = "stylesheet" href= "learnenglish.css">
 	</head>
+    <body>
+    
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -40,8 +42,13 @@
 		  </form>
 		  <ul class="nav navbar-nav navbar-right">
 			<li><a href="contact.html">Contactanos</a></li>
-			<li><a href="team.html">El Equipo</a></li>
+			<li><a href="medicalterms.html">El Equipo</a></li>
 		  </ul>
 		</div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+                                    
+    <div class="round-button" id="button1"><div class="round-button-circle"><a href="phy.html" class="round-button"><h1>Términos Físicos</h1></a></div></div>
+    <div class="round-button" id="button2"><div class="round-button-circle"><a href="questions.html" class="round-button"><h1>Preguntas Los médicos hacen y respuestas</h1></a></div></div>
+    <div class="round-button" id="button3"><div class="round-button-circle"><a href="bodyparts.html" class="round-button"><h1>Partes del Cuerpo</h1></a></div></div>
+    <div class="round-button" id="button4"><div class="round-button-circle"><a href="testnames.html" class="round-button"><h1>Términos Médicos</h1></a></div></div>
