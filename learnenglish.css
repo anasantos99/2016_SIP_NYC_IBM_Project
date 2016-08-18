@@ -120,8 +120,43 @@ body{
     
 	text-align:center;
 	color:White;
-    font-family:  Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
     font-size:35px;
     font-weight:bold;
     text-decoration:none;
+}
+/*css for materias*/
+.spanish{
+	font-size: 40px;
+	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	color: Black;
+	margin-left: 30px;
+}
+
+.english{
+	font-size: 45px;
+	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	color: lightslategrey;
+	margin-left: 30px;
+}
+.button{
+	width:125px;
+	height:55px;
+	background-color: lightskyblue;
+	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	color:black;
+	margin-left: 35px;
+	font-size:25px;
+	opacity: 0.7;
+}
+.button2{
+	width:125px;
+	height:55px;
+	background-color: lightskyblue;
+	font-family:Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	color:black;
+	margin-left:500px;
+	margin: -800px;
+	font-size:25px;
+	opacity: 0.7;
 }
