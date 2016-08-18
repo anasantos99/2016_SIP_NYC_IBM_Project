@@ -10,15 +10,14 @@ function respirationrate() {
 function temperature() {
 	document.getElementById("temperature").innerHTML = "Temperature";
 }
-function chem() {
-	document.getElementById("chem").innerHTML = "Chemistry";
+function heartexam() {
+	document.getElementById("heartexam").innerHTML = "Heart Exam";
 }
-function art() {
-	document.getElementById("art").innerHTML = "Art";
+function lungexam() {
+	document.getElementById("lungexam").innerHTML = "Lung Exam";
 }
-function math() {
-	document.getElementById("math").innerHTML = "Math";
+function headandneckexam() {
+	document.getElementById("headandneckexam").innerHTML = "Head and Neck Exam";
 }
-function music() {
-	document.getElementById("music").innerHTML = "Music";
-}
+function abdominalexam() {
+	document.getElementById("abdominalexam").innerHTML = "Abdominal Exam";
