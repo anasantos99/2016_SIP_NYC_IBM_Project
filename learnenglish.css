@@ -15,7 +15,18 @@ body{
     width: 700px;
     height: 250px;
 }
-
+.name{
+	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	color: lightslategrey;
+	font-size: 40px;
+	text-align: center;
+}
+.details{
+	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	color:lightslategrey;
+	font-size: 40px;
+	text-align: center;
+}
 .nav navbar-nav {
 	font-size: 35px;
 	background: linear-gradient(to left, lightskyblue, white);
@@ -121,7 +132,7 @@ body{
 	text-align:center;
 	color:White;
     font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
-    font-size:35px;
+    font-size:45px;
     font-weight:bold;
     text-decoration:none;
 }
@@ -142,6 +153,7 @@ body{
 	color: lightslategrey;
 	padding-left: 10px;
 	padding-right: 10px;
+	text-align: center;
 }
 .button{
 	width:125px;
@@ -178,6 +190,40 @@ body{
 	padding-right: 10px;
 }
 .button2{
+	width:125px;
+	height:55px;
+	background-color: lightskyblue;
+	font-family:Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	color:black;
+	margin: 25px;
+	font-size:25px;
+	opacity: 0.7;
+	margin:auto;
+	display:block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*3rd row of buttons*/
+.spanish3{
+	font-size: 40px;
+	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	color: Black;
+	text-align: center;
+	margin:15px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.english3{
+	font-size: 45px;
+	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	color: lightslategrey;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.button3{
 	width:125px;
 	height:55px;
 	background-color: lightskyblue;
