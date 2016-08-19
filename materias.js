@@ -46,3 +46,27 @@ function chinese() {
 function greek() {
 	document.getElementById("greek").innerHTML = "Greek";
 }
+function geo() {
+	document.getElementById("geo").innerHTML = "Geometry";
+}
+function ss() {
+	document.getElementById("ss").innerHTML = "Social Studies";
+}
+function lit() {
+	document.getElementById("lit").innerHTML = "English Literature";
+}
+function sports() {
+	document.getElementById("sports").innerHTML = "Sports";
+}
+function latin() {
+	document.getElementById("latin").innerHTML = "Latin";
+}
+function calc() {
+	document.getElementById("calc").innerHTML = "Calculus";
+}
+function trig() {
+	document.getElementById("trig").innerHTML = "Trigonometry";
+}
+function honors() {
+	document.getElementById("honors").innerHTML = "Honors Class";
+}
