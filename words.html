@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html> 
+	<head>
+		<title> Learn Ingl&eacutes </title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel = "stylesheet" href= "learnenglish.css">
+		<script src="words.js"></script>
+	</head>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="learnenglish.html"><img src = "title.jpg"> </a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Aprende<span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="supermercado.html">En el Supermercado</a></li>
+				<li><a href="doctor.html">En el Doctor</a></li>
+				<li><a href="trabajo.html">En el Trabajo</a></li>
+				 <li><a href="escuela.html">En la Escuela</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		  <form class="navbar-form navbar-left">
+			
+		  </form>
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="contact.html">Contactanos</a></li>
+			<li><a href="team.html">El Equipo</a></li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	
+	<TABLE BORDER="0">
+		<TR>
+
+		<TD><p class= "spanish">Si</p>
+			<button class= "button" onclick="si()">Traducir</button>
+			<p class= "english" id="si"></p> 
+		</TD>
+
+		<TD><p class="spanish">No</p>
+			<button class="button" onclick="no()">Traducir</button>
+			<p class= "english" id="no"></p>
+		</TD>
+
+		<TD><p class="spanish">Que?</p>
+			<button class="button" onclick="what()">Traducir</button>
+			<p class= "english" id="what"></p>
+		</TD>
+		
+		<TD><p class="spanish">Hola</p>
+			<button class="button" onclick="hi()">Traducir</button>
+			<p class= "english" id="hi"></p>
+		</TD>
+		
+		<TD><p class="spanish">Lunes</p>
+			<button class="button" onclick="mon()">Traducir</button>
+			<p class= "english" id="mon"></p>
+		</TD>
+
+		<TD><p class="spanish">Martes</p>
+			<button class="button" onclick="tues()">Traducir</button>
+			<p class= "english" id="tues"></p>
+		</TD>
+		
+		<TD><p class="spanish">Miercoles</p>
+			<button class="button" onclick="mi()">Traducir</button>
+			<p class= "english" id="mi"></p>
+		</TD>
+		
+		<TD><p class="spanish">Jueves</p>
+			<button class="button" onclick="ju()">Traducir</button>
+			<p class= "english" id="ju"></p>
+		</TD>
+		
+		</TR>
+		<TD><p class="spanish">Viernes</p>
+			<button class="button" onclick="frid()">Traducir</button>
+			<p class= "english" id="frid"></p>
+		</TD>
+		
+		<TD><p class="spanish">Sabado</p>
+			<button class="button" onclick="saba()">Traducir</button>
+			<p class= "english" id="saba"></p>
+		</TD>
+		<TD><p class="spanish">Domingo</p>
+			<button class="button" onclick="domi()">Traducir</button>
+			<p class= "english" id="domi"></p>
+		</TD>
+		
+		<TD><p class="spanish">La officina</p>
+			<button class="button" onclick="office()">Traducir</button>
+			<p class= "english" id="office"></p>
+		</TD>
+		
+		<TD><p class="spanish">La estimación</p>
+			<button class="button" onclick="cost()">Traducir</button>
+			<p class= "english" id="cost"></p>
+		</TD>
+		<TD><p class="spanish">Depositar</p>
+			<button class="button" onclick="deposit()">Traducir</button>
+			<p class= "english" id="deposit"></p>
+		</TD>
+		<TD><p class="spanish">Salida</p>
+			<button class="button" onclick="salir()">Traducir</button>
+			<p class= "english" id="salir"></p>
+		</TD>
+		<TD><p class="spanish">Lápiz</p>
+			<button class="button" onclick="pencil()">Traducir</button>
+			<p class= "english" id="pencil"></p>
+		</TD>
+		</TR>
+		
+	     <TR>
+		<TD><p class="spanish">Bolígrafo</p>
+			<button class="button" onclick="pen()">Traducir</button>
+			<p class= "english" id="pen"></p>
+		</TD>
+		<TD><p class="spanish">Papel</p>
+			<button class="button" onclick="papel()">Traducir</button>
+			<p class= "english" id="papel"></p>
+		</TD>
+		<TD><p class="spanish">La mesa</p>
+			<button class="button" onclick="table()">Traducir</button>
+			<p class= "english" id="table"></p>
+		</TD>
+		<TD><p class="spanish">Pasillo</p>
+			<button class="button" onclick="way()">Traducir</button>
+			<p class= "english" id="way"></p>
+		</TD>
+		<TD><p class="spanish">Escalera</p>
+			<button class="button" onclick="stairs()">Traducir</button>
+			<p class= "english" id="stairs"></p>
+		</TD>
+		<TD><p class="spanish">Baño</p>
+			<button class="button" onclick="room()">Traducir</button>
+			<p class= "english" id="room"></p>
+		</TD>
+		<TD><p class="spanish">Basura</p>
+			<button class="button" onclick="garg()">Traducir</button>
+			<p class= "english" id="garg"></p>
+		</TD>
+		<TD><p class="spanish">Puerta</p>
+			<button class="button" onclick="door()">Traducir</button>
+			<p class= "english" id="door"></p>
+		</TD>
+		</TR>
+		
+		<TR>
+		<TD><p class="spanish">Clima</p>
+			<button class="button" onclick="weather()">Traducir</button>
+			<p class= "english" id="weather"></p>
+		</TD>
+		<TD><p class="spanish">Silla</p>
+			<button class="button" onclick="chair()">Traducir</button>
+			<p class= "english" id="chair"></p>
+		</TD>
+		<TD><p class="spanish">Restaurante</p>
+			<button class="button" onclick="restu()">Traducir</button>
+			<p class= "english" id="restu"></p>
+		</TD>
+		
+		</TD>
+		<TD><p class="spanish">Comida</p>
+			<button class="button" onclick="food()">Traducir</button>
+			<p class= "english" id="food"></p>
+		</TD>
+		<TD><p class="spanish">Traje</p>
+			<button class="button" onclick="suit()">Traducir</button>
+			<p class= "english" id="suit"></p>
+		</TD>
+		
+		
+		
+		
+		
+		
+		
+		
+		</TR>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		</TR>
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+	</TABLE>
+</body>
+</html>
