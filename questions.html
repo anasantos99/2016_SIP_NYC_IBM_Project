@@ -1,14 +1,17 @@
-html> 
+<!DOCTYPE html>
+<html> 
 	<head>
-	<title> Learn Ingl&eacutes </title>
-	<link rel="icon" href="books.png">	
-	<meta charset="utf-8">
+        <title> Learn Ingl&eacutes </title>
+        <link rel="icon" href="books.png">	
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel = "stylesheet" href= "learnenglish.css">
+        <script src  = "questions.js"></script>
 	</head>
+<body>
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -45,3 +48,49 @@ html>
 		</div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+    <!-- /.button/-->
+	<TABLE BORDER="0">
+		<TR>
+
+		<TD><p class= "spanish">¿Por qué estás aquí hoy?</p>
+			<button class= "button" onclick="why()">Traducir</button>
+			<p class= "english" id="why"></p> 
+		</TD>
+
+		<TD><p class="spanish">¿Como te sientes?</p>
+			<button class="button" onclick="how()">Traducir</button>
+			<p class= "english" id="how"></p>
+		</TD>
+
+		<TD><p class="spanish">¿Ha tenido algún dolor últimamente?</p>
+			<button class="button" onclick="have()">Traducir</button>
+			<p class= "english" id="have"></p>
+		</TD>
+		<TD><p class="spanish">¿Cuando empezó esto ?</p>
+			<button class="button" onclick="when()">Traducir</button>
+			<p class= "english" id="when"></p>
+		</TD>
+        
+       
+	
+    <TR>
+      <TD><p class="spanish2">¿A que hora te vas a dormir?</p>
+			<button class="button2" onclick="at()">Traducir</button>
+			<p class= "english2" id="at"></p>
+	  </TD>
+      <TD><p class="spanish2">¿Qué se hace sobre una base diaria?</p>
+			<button class="button2" onclick="what()">Traducir</button>
+			<p class= "english2" id="what"></p>
+	  </TD>
+	  <TD><p class="spanish2">¿Como se ve su dieta?</p>
+			<button class="button2" onclick="diet()">Traducir</button>
+			<p class= "english2" id="diet"></p>
+      </TD>
+      <TD><p class="spanish2">¿Cuál es la rutina de ejercicios?</p>
+			<button class="button2" onclick="exercise()">Traducir</button>
+			<p class= "english2" id="exercise"></p>
+      </TD>
+    </TR>
+    </TABLE>
+    </body>
+    </html>
