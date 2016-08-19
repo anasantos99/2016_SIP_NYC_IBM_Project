@@ -9,6 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel = "stylesheet" href= "learnenglish.css">
+		<script src = "questions.js"></script>
 	</head>
 <body>
 	<nav class="navbar navbar-default">
@@ -46,5 +47,41 @@
 		</div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+	<h3 class = "details">Haz click en 'Traducir' para ver la frase o palabra en ingl&eacutes </h3>
+	<TABLE BORDER="0">
+	<TR>
+	
+	<TD><p class="spanish">¿Como se está comportando mi hijo/a?</p>
+		<button class="button" onclick="behavior()">Traducir</button>
+		<p class="english" id="behavior"></p>
+	</TD>
+	
+	<TD><p class="spanish">¿Mi hijo/a ha entregado todas las tareas?</p>
+		<button class="button" onclick="hw()">Traducir</button>
+		<p class="english" id="hw"></p>
+	</TD>
+	
+	<TD><p class="spanish">¿Hay algún problema con mi hijo/a en la clase?</p>
+		<button class="button" onclick="problem()">Traducir</button>
+		<p class="english" id="problem"></p>
+
+	</TD>
+	
+	<TD><p class="spanish">¿Hay algo que mi hijo/a pueda hacer para mejorar sus calificaciones?</p>
+		<button class="button" onclick="extra()">Traducir</button>
+		<p class="english" id="extra"></p>
+	</TD>
+	
+	<TD><p class="spanish">¿Puede repetir la pregunta?</p>
+		<button class="button" onclick="repeat()">Traducir</button>
+		<p class="english" id="repeat"></p>
+	</TD>
+	
+	<TD><p class="spanish">¿Cómo puedo ayudar a mi hijo/a en la casa?</p>
+		<button class="button" onclick="home()">Traducir</button>
+		<p class="english" id="home"></p>
+	</TD>
+	</TR>
+	</TABLE>
 </body>
-</html>		
+</html>
