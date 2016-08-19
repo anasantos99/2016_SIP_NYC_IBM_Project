@@ -9,6 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel = "stylesheet" href= "learnenglish.css">
+		<script src = "behavior.js"></script>
 	</head>
 <body>
 	<nav class="navbar navbar-default">
@@ -46,5 +47,75 @@
 		</div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+	<div>
+	<h3 class = "details">Haz click en 'Traducir' para ver la frase o palabra en ingl&eacutes </h3>
+	</div>
+	<TABLE BORDER = "0">
+	<TR>
+	
+	<TD><p class="spanish">Irrespetuoso</p>
+		<button class="button" onclick="disrespectful()">Traducir</button>
+		<p class="english" id="disrespectful"></p>
+	</TD>
+	
+	<TD><p class="spanish">Ignorante</p>
+		<button class="button" onclick="ignorant()">Traducir</button>
+		<p class="english" id="ignorant"></p>
+	</TD>
+	
+	<TD><p class="spanish">No pone atención</p>
+		<button class="button" onclick="attention()">Traducir</button>
+		<p class="english" id="attention"></p>
+	</TD>
+	
+	<TD><p class="spanish">Habla mucho</p>
+		<button class="button" onclick="talk()">Traducir</button>
+		<p class="english" id="talk"></p>
+	</TD>
+	
+	<TD><p class="spanish">Es callado/a</p>
+		<button class="button" onclick="quiet()">Traducir</button>
+		<p class="english" id="quiet"></p>
+	</TD>
+	
+	<TD><p class="spanish">Es timido/a</p>
+		<button class="button" onclick="shy()">Traducir</button>
+		<p class="english" id="shy"></p>
+	</TD>
+	
+	<TR>
+	
+	<TD><p class="spanish">Siempre está en el telefono</p>
+		<button class="button" onclick="phone()">Traducir</button>
+		<p class="english" id="phone"></p>
+	</TD>
+	
+	<TD><p class="spanish">Necesita participar más en la clase</p>
+		<button class="button" onclick="participate()">Traducir</button>
+		<p class="english" id="participate"></p>
+	</TD>
+	
+	<TD><p class="spanish">No viene a la clase</p>
+		<button class="button" onclick="skip()">Traducir</button>
+		<p class="english" id="skip"></p>
+	</TD>
+	
+	<TD><p class="spanish">Es muy bien portado/a</p>
+		<button class="button" onclick="good()">Traducir</button>
+		<p class="english" id="good"></p>
+	</TD>
+
+	<TD><p class="spanish">Ayuda a sus compañeros/as</p>
+		<button class="button" onclick="help()">Traducir</button>
+		<p class="english" id="help"></p>
+	</TD>
+	
+	<TD><p class="spanish">Es muy trabajador/a</p>
+		<button class="button" onclick="work()">Traducir</button>
+		<p class="english" id="work"></p>
+	</TD>
+	
+	</TR>
+	</TABLE>
 </body>
-</html>		
+</html>
