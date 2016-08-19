@@ -21,3 +21,13 @@ function headandneckexam() {
 }
 function abdominalexam() {
 	document.getElementById("abdominalexam").innerHTML = "Abdominal Exam";
+}
+function neurologicalexam() {
+	document.getElementById("neurologicalexam").innerHTML = "Neurological Exam";
+}
+function dermatologicalexam() {
+	document.getElementById("dermatologicalexam").innerHTML = "Dermatological Exam";
+}
+function bloodtest() {
+	document.getElementById("bloodtest").innerHTML = "Blood Test";
+}
