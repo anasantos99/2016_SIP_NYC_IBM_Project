@@ -1,14 +1,14 @@
 function dias() {
-		document.getElementById("dias").innerHTML = "GoodMorning";
+		document.getElementById("dias").innerHTML = "GoodMorning (Gud Mourning)";
 	}
 function dia() {
-	document.getElementById("dia").innerHTML = "Good Afternoon";
+	document.getElementById("dia").innerHTML = "Good Afternoon (Gud Afternun)";
 }
 function night() {
-	document.getElementById("night").innerHTML = "Good Night";
+	document.getElementById("night").innerHTML = "Good Night (Gud Nit)";
 }
 function gusto() {
-	document.getElementById("gusto").innerHTML = "Nice to meet you";
+	document.getElementById("gusto").innerHTML = "Nice to meet you ";
 }
 function thnxz() {
 	document.getElementById("thnxz").innerHTML = "Thank You";
