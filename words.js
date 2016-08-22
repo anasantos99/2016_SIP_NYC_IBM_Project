@@ -1,5 +1,5 @@
 function si() {
-		document.getElementById("si").innerHTML = "Yes";
+		document.getElementById("si").innerHTML = "Yes (ies)";
 	}
 function no() {
 	document.getElementById("no").innerHTML = "No";
