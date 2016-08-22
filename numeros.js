@@ -28,6 +28,6 @@ function nine() {
 function ten() {
 	document.getElementById("ten").innerHTML = "Ten";
 }
-function ninety-nine() {
-	document.getElementById("ninety-nine").innerHTML = "Ninety-Nine";
+function ninety() {
+	document.getElementById("ninety").innerHTML = "Ninety-Nine";
 }
