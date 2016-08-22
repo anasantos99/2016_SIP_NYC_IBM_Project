@@ -23,7 +23,7 @@ function ju() {
 	document.getElementById("ju").innerHTML = "Thursday";
 }
 function frid() {
-	document.getElementById("frid").innerHTML = "Friday";
+	document.getElementById("frid").innerHTML = "Friday ";
 }
 function saba() {
 	document.getElementById("saba").innerHTML = "Saturday";
@@ -52,7 +52,7 @@ function pen() {
 	
 }
 function papel() {
-	document.getElementById("papel").innerHTML = "Paper";
+	document.getElementById("papel").innerHTML = "Paper (Pay-pur)";
 	
 }
 function table() {
@@ -72,7 +72,7 @@ function room() {
 	
 }
 function roof() {
-	document.getElementById("roof").innerHTML = "Roof";
+	document.getElementById("roof").innerHTML = "Roof (Ruf)";
 	
 }
 function garg() {
@@ -80,7 +80,7 @@ function garg() {
 	
 }
 function weather() {
-	document.getElementById("weather").innerHTML = "Weather";
+	document.getElementById("weather").innerHTML = "Weather (We-ther)";
 	
 }
 function room() {
@@ -92,22 +92,22 @@ function door() {
 	
 }
 function restu() {
-	document.getElementById("restu").innerHTML = "Resturant";
+	document.getElementById("restu").innerHTML = "Resturant ";
 	
 }
 function store() {
-	document.getElementById("store").innerHTML = "Store";
+	document.getElementById("store").innerHTML = "Store ";
 	
 }
 function food() {
-	document.getElementById("food").innerHTML = "Food";
+	document.getElementById("food").innerHTML = "Food ( Fud)";
 	
 }
 function suit() {
-	document.getElementById("suit").innerHTML = "Suit";
+	document.getElementById("suit").innerHTML = "Suit (Sut)";
 	
 }
 function chair() {
-	document.getElementById("chair").innerHTML = "Chair";
+	document.getElementById("chair").innerHTML = "Chair (sh-air)";
 	
 }
