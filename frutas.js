@@ -68,3 +68,7 @@ function spinach() {
 function potatoes() { 
 	document.getElementById("potatoes").innerHTML = "Potatoes"; 
 } 
+function watermelon(){
+    document.getElementById("watermelon").innerHTML="Watermelon";
+}
+
