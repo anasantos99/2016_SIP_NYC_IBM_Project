@@ -5,29 +5,29 @@ function dia() {
 	document.getElementById("dia").innerHTML = "Good Afternoon (Gud Afternun)";
 }
 function night() {
-	document.getElementById("night").innerHTML = "Good Night (Gud Nit)";
+	document.getElementById("night").innerHTML = "Good Night (Gud Nait)";
 }
 function gusto() {
-	document.getElementById("gusto").innerHTML = "Nice to meet you (Nise tu meet u) ";
+	document.getElementById("gusto").innerHTML = "Nice to meet you (Naise tu mit iu)";
 }
 function thnxz() {
 	document.getElementById("thnxz").innerHTML = "Thank You (thank u)";
 }
 function sorry() {
-	document.getElementById("sorry").innerHTML = "Im sorry (Im sorry))";
+	document.getElementById("sorry").innerHTML = "Im sorry (aim sorri))";
 }
 function me() {
-	document.getElementById("me").innerHTML = "Excuse Me (Excu-se mi))";
+	document.getElementById("me").innerHTML = "Excuse Me (Excius mi))";
 }
 function please() {
-	document.getElementById("please").innerHTML = "Please (Pleaz)";
+	document.getElementById("please").innerHTML = "Please (Pliz)";
 }
 function you() {
-	document.getElementById("you").innerHTML = "Bless You (Bless u)";
+	document.getElementById("you").innerHTML = "Bless You (Bless iu)";
 }
 function welcome() {
-	document.getElementById("welcome").innerHTML = "You are Welcome (U r wel-come)";
+	document.getElementById("welcome").innerHTML = "You are Welcome (iu r uel-com)";
 }
 function i() {
-	document.getElementById("i").innerHTML = "I do not understand (I do not undar-stan)";
+	document.getElementById("i").innerHTML = "I do not understand (ai du nat under-stan)";
 }
