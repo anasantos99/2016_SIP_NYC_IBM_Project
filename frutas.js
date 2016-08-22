@@ -1,5 +1,5 @@
 function apples() {
-		document.getElementById("apples").innerHTML = "Apples(apels)";
+    document.getElementById("apples").innerHTML = "Apples(apels)";
 }
 function pears() {
 	document.getElementById("pears").innerHTML = "Pear(per)";
@@ -11,7 +11,7 @@ function strawberry() {
 	document.getElementById("strawberry").innerHTML = "Strawberry(strabery)";
 }
 function mango() {
-	document.getElementById("mango").innerHTML = "Mango"(mango);
+	document.getElementById("mango").innerHTML = "Mango(mango)";
 }
 function grapefruit() {
 	document.getElementById("grapefruit").innerHTML = "Grapefruit(grepfrut)";
@@ -63,7 +63,7 @@ function celery() {
  	document.getElementById("celery").innerHTML = "Celery(seleri)"; 
 } 
 function spinach() { 
-	document.getElementById("spinach").innerHTML = "spinach(spinash)"; 
+	document.getElementById("spinach").innerHTML = "Spinach(spinash)"; 
 } 
 function potatoes() { 
 	document.getElementById("potatoes").innerHTML = "Potatoes(peteito)"; 
