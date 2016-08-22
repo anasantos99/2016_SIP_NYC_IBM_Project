@@ -49,24 +49,24 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 <div class="w3-container">
-<h2>Contactanos</h2>
-<p>Si tienes algunas preguntas o sugerencias, puedes comunicarte con nosotras por correo electronico o Facebook. </p>
+<h2 class="contact">Contactanos</h2>
+<p class="contact">Si tienes algunas preguntas o sugerencias, puedes comunicarte con nosotras por correo electronico o Facebook. </p>
 </div>
 
 <ul class="w3-navbar">
-  <li><a href="#" onclick="openCity('Email')">Correo Electronico</a></li>
-  <li><a href="#" onclick="openCity('Facebook')">Facebook</a></li>
-  <li><a href="#" onclick="openCity('Comments')">Comentarios</a></li>
+  <li><a class="contact" href="#" onclick="openCity('Email')">Correo Electronico</a></li>
+  <li><a class="contact" href="#" onclick="openCity('Facebook')">Facebook</a></li>
+  <li><a class="contact" href="#" onclick="openCity('Comments')">Comentarios</a></li>
 </ul>
 
 <div id="Email" class="w3-container city">
-  <h2>Nuestros Correos Electronicos</h2>
+  <h2 class="contact" >Nuestros Correos Electronicos</h2>
 
   <ul>
-  <li>ana.santos.0818@gmail.com</li>
-  <li>jamilesjimenez@gmail.com</li>
-  <li> medozallcat@gmail.com</li>
-  <li> vanessam363@gmail.com</li>
+  <li class="contact" >ana.santos.0818@gmail.com</li>
+  <li class="contact" >jamilesjimenez@gmail.com</li>
+  <li class="contact" > medozallcat@gmail.com</li>
+  <li class="contact" > vanessam363@gmail.com</li>
 </ul>
 
 
@@ -76,15 +76,15 @@
 </div>
 
 <div id="Facebook" class="w3-container city">
-  <h2>Facebook</h2>
+  <h2 class="contact" >Facebook</h2>
 <a target="_blank" title="follow me on facebook" href="http://www.facebook.com/PLACEHOLDER"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/badgefacebook.png" border=0></a>
 
 
 </div>
 
 <div id ="Comments" class="w3-container city">
-    <h2>Comentarios</h2>
-    <p>Escribe tus comentarios y comparte tu opinion sobre Learn Ingl&eacutes.</p>
+    <h2 class="contact" >Comentarios</h2>
+    <p class="contact" >Escribe tus comentarios y comparte tu opinion sobre Learn Ingl&eacutes.</p>
 <meta charset="UTF-8" />
 
 <title> HTML5 page </title>
@@ -93,8 +93,8 @@
 <body>
 
 <form>
-<textarea id="words" rows="10" cols="20">Escribe Aqui.</textarea>
-<input type="button" onclick="getwords()" value="Agregar" /> <br>
+<textarea id="words" rows="10" cols="20" class="contact" >Escribe Aqui.</textarea>
+<input type="button" onclick="getwords()" value="Agregar" class="contact" /> <br>
 <p id="para"></p>
 </form>
 
