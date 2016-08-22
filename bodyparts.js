@@ -1,14 +1,28 @@
 function my___hurtsormy___isbroken() {
-		document.getElementById("my___hurtsormy___isbroken").innerHTML = "My___hurts or my___is broken(mai___hurts or mai_ es broken)";
-	}
+		if(document.getElementById("my___hurtsormy___isbroken").innerHTML == "My___hurts or my___is broken(mai___hurts or mai_ es brokin)"){
+            document.getElementById("my___hurtsormy___isbroken").innerHTML = "";
+        } else {document.getElementById("my___hurtsormy___isbroken").innerHTML = "My___hurts or my___is broken(mai___hurts or mai_ es brokin)";}
+}        
 function hands() {
-	document.getElementById("hands").innerHTML = "Hands(jands)";
+	if(document.getElementById("hands").innerHTML == "Hands(jands)"){
+        document.getElementById("hands").innerHTML = "";
+    } else {
+        document.getElementById("hands").innerHTML = "Hands(jands)";
+    }
 }
 function fingers() {
-	document.getElementById("fingers").innerHTML = "Fingers(fingers)";
+	if(document.getElementById("fingers").innerHTML == "Fingers(fengers)"){
+        document.getElementById("fingers").innerHTML = "";
+    } else {
+        document.getElementById("fingers").innerHTML = "Fingers(fengers)";
+    }
 }
 function arms() {
-	document.getElementById("arms").innerHTML = "Arms(arms)";
+	if(document.getElementById("arms").innerHTML == "Arms(arms)"){
+      document.getElementById("arms").innerHTML = "";  
+    } else {
+        document.getElementById("arms").innerHTML = "Arms(arms)";
+    }
 }
 function neck() {
 	document.getElementById("neck").innerHTML = "Neck(nek)";
@@ -23,13 +37,13 @@ function nose() {
 	document.getElementById("nose").innerHTML = "Nose(nous)";
 }
 function ears() {
-	document.getElementById("ears").innerHTML = "Ears(ears)";
+	document.getElementById("ears").innerHTML = "Ears(ers)";
 }
 function mouth() {
-	document.getElementById("mouth").innerHTML = "Mauth(mouth)";
+	document.getElementById("mouth").innerHTML = "Mouth(mouth)";
 }
 function legs() {
-	document.getElementById("legs").innerHTML = "Legs(legs)";
+	document.getElementById("legs").innerHTML = "Legs(ligs)";
 }
 function feet() {
 		document.getElementById("feet").innerHTML = "Feet(fiit)";
