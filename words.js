@@ -68,8 +68,7 @@ function stairs() {
 	
 }
 function room() {
-	document.getElementById("room").innerHTML = "Bathroom 
-	";
+	document.getElementById("room").innerHTML = "Bathroom (Bath- rum)";
 	
 }
 function roof() {
