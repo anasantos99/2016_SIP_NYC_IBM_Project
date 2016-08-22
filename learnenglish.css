@@ -47,7 +47,24 @@ body{
 	color: white;
 	font-size: 35px;
 }
+.circle{
+	background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
 
+.team{
+	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	color: lightslategrey;
+	font-size: 35px;
+}
+.team1{
+	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+	color: lightslategrey;
+	font-size: 55px;
+}
 #question{ 
 	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
 	color: black;
@@ -145,9 +162,9 @@ body{
     font-weight:bold;
     text-decoration:none;
 }
-/*css for materias*/
+/*css for buttons*/
 .spanish{
-	font-size: 40px;
+	font-size: 35px;
 	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
 	color: Black;
 	text-align:center;
@@ -157,7 +174,7 @@ body{
 }
 
 .english{
-	font-size: 45px;
+	font-size: 40px;
 	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
 	color: lightslategrey;
 	padding-left: 10px;
