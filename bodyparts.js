@@ -1,11 +1,11 @@
 function my___hurtsormy___isbroken() {
-		document.getElementById("my___hurtsormy___isbroken").innerHTML = "My___hurts or my___is broken(mai___hurts or mai_ es brokin)";
+		document.getElementById("my___hurtsormy___isbroken").innerHTML = "My___hurts or my___is broken(mai___hurts or mai_ es broken)";
 	}
 function hands() {
 	document.getElementById("hands").innerHTML = "Hands(jands)";
 }
 function fingers() {
-	document.getElementById("fingers").innerHTML = "Fingers(fengers)";
+	document.getElementById("fingers").innerHTML = "Fingers(fingers)";
 }
 function arms() {
 	document.getElementById("arms").innerHTML = "Arms(arms)";
@@ -23,13 +23,13 @@ function nose() {
 	document.getElementById("nose").innerHTML = "Nose(nous)";
 }
 function ears() {
-	document.getElementById("ears").innerHTML = "Ears(ers)";
+	document.getElementById("ears").innerHTML = "Ears(ears)";
 }
 function mouth() {
-	document.getElementById("mouth").innerHTML = "Mouth(mouth)";
+	document.getElementById("mouth").innerHTML = "Mauth(mouth)";
 }
 function legs() {
-	document.getElementById("legs").innerHTML = "Legs(ligs)";
+	document.getElementById("legs").innerHTML = "Legs(legs)";
 }
 function feet() {
 		document.getElementById("feet").innerHTML = "Feet(fiit)";
