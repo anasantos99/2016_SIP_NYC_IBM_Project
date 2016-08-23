@@ -46,6 +46,8 @@ body{
 	font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
 	color: white;
 	font-size: 35px;
+	background-color: lightslategrey;
+	opacity: 0.7;
 }
 .circle{
 	background-repeat: no-repeat;
