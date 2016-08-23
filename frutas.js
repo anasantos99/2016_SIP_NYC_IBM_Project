@@ -10,7 +10,7 @@ function pears() {
 	if(document.getElementById("pears").innerHTML=="Pears(per)"){
 		document.getElementById("pears").innerHTML="";
 	}else{
-	document.getElementById("pears").innerHTML = "Pear(per)";
+	document.getElementById("pears").innerHTML = "Pears(per)";
 	}
 }
 function cherry() {
@@ -36,7 +36,7 @@ function mango() {
 }
 function grapefruit() {
 	if(document.getElementById("grapefruit").innerHTML=="Grapefruit(grepfrut)"){
-		documemt.getElementById("grapefruit").innerHTML="";
+		document.getElementById("grapefruit").innerHTML="";
 	}else{
 	document.getElementById("grapefruit").innerHTML = "Grapefruit(grepfrut)";
 	}
@@ -71,19 +71,21 @@ function orange() {
 	}
 } 
 function tomato() { 
-	if(document.getElementById("tomato").innerHTML=="Tomato(tomayto"){
+	if(document.getElementById("tomato").innerHTML=="Tomato(tomayto)"){
 		document.getElementById("tomato").innerHTML="";
 	}else{
  	document.getElementById("tomato").innerHTML = "Tomato(tomayto)"; 
 	}
 } 
-function plum() { 
+function plum() {
 	if(document.getElementById("plum").innerHTML=="Plum(plom)"){
-		document.getElementById("pum").innerHTML="";
+		document.getElementById("plum").innerHTML="";
 	}else{
-	document.getElementById("plum").innerHTML = "Plum(plom)"; 
+    document.getElementById("plum").innerHTML = "Plum(plom)";
 	}
-} 
+
+}
+
 function raspberry() { 
 	if(document.getElementById("raspberry").innerHTML=="Raspberry(rasberi)"){
  		document.getElementById("raspberry").innerHTML = "";
@@ -92,36 +94,101 @@ function raspberry() {
 	}
 } 
 function banana() { 
+	if(document.getElementById("banana").innerHTML=="Banana(banana)"){
+		document.getElementById("banana").innerHTML="";
+	}else{
+    document.getElementById("banana").innerHTML = "Banana(banana)";
+	}
+
+}
 	
- 	document.getElementById("banana").innerHTML = "Banana(banana)"; 
-} 
 function blueberry() { 
- 	document.getElementById("blueberry").innerHTML = "Bluberry(bluberi)"; 
-} 
+    if(document.getElementById("blueberry").innerHTML=="Blueberry(blueberi)"){
+		document.getElementById("blueberry").innerHTML="";
+	}else{
+    document.getElementById("blueberry").innerHTML = "Blueberry(blueberi)";
+	}
+
+}
+ 	
 function broccoli() { 
-	document.getElementById("broccoli").innerHTML = "Broccoli(brokoli)"; 
-} 
+    if(document.getElementById("broccoli").innerHTML=="Broccoli(brokoli)"){
+		document.getElementById("broccoli").innerHTML="";
+	}else{
+    document.getElementById("broccoli").innerHTML = "Broccoli(brokoli)";
+	}
+
+}
+
 function lettuce() { 
-	document.getElementById("lettuce").innerHTML = "Lettuce(letuce)"; 
-} 
+    if(document.getElementById("lettuce").innerHTML=="Lettuce(letace)"){
+		document.getElementById("lettuce").innerHTML="";
+	}else{
+    document.getElementById("lettuce").innerHTML = "Lettuce(letace)";
+	}
+
+}
+
 function cucumbers() { 
- 	document.getElementById("cucumbers").innerHTML = "Cucumbers(qukumbr)"; 
-} 
+    if(document.getElementById("cucumbers").innerHTML=="Cucumbers(qukumbrs)"){
+		document.getElementById("cucumbers").innerHTML="";
+	}else{
+    document.getElementById("cucumbers").innerHTML = "Cucumbers(qukumbrs)";
+	}
+
+}
+
 function carrot() { 
-	document.getElementById("carrot").innerHTML = "Carrot(karot)"; 
-} 
+    if(document.getElementById("carrot").innerHTML=="Carrot(karot)"){
+		document.getElementById("carrot").innerHTML="";
+	}else{
+    document.getElementById("carrot").innerHTML = "Carrot(karot)";
+	}
+
+}
+
 function pepper() { 
- 	document.getElementById("pepper").innerHTML = "Pepper(pepr)"; 
-} 
+    if(document.getElementById("pepper").innerHTML=="Pepper(pepr)"){
+		document.getElementById("pepper").innerHTML="";
+	}else{
+    document.getElementById("pepper").innerHTML = "Pepper(pepr)";
+	}
+
+}
+
 function celery() { 
- 	document.getElementById("celery").innerHTML = "Celery(seleri)"; 
-} 
+    if(document.getElementById("celery").innerHTML=="Celery(seleri)"){
+		document.getElementById("celery").innerHTML="";
+	}else{
+    document.getElementById("celery").innerHTML = "Celery(seleri)";
+	}
+
+}
+
+
 function spinach() { 
-	document.getElementById("spinach").innerHTML = "Spinach(spinash)"; 
-} 
+    if(document.getElementById("spinach").innerHTML=="Spinach(spinash)"){
+		document.getElementById("spinach").innerHTML="";
+	}else{
+    document.getElementById("spinach").innerHTML = "Spinach(spinash)";
+	}
+
+}
+
 function potatoes() { 
-	document.getElementById("potatoes").innerHTML = "Potatoes(peteito)"; 
-} 
+    if(document.getElementById("potatoes").innerHTML=="Potatoes(poteitos)"){
+		document.getElementById("potatoes").innerHTML="";
+	}else{
+    document.getElementById("potatoes").innerHTML = "Potatoes(poteitos)";
+	}
+
+}
+
 function watermelon(){
-    document.getElementById("watermelon").innerHTML="Watermelon(watrmelon)";
+    if(document.getElementById("watermelon").innerHTML=="Watermelon(watrmelon)"){
+		document.getElementById("watermelon").innerHTML="";
+	}else{
+    document.getElementById("watermelon").innerHTML = "Watermelon(watrmelon)";
+	}
+
 }
