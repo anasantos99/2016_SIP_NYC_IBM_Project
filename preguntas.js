@@ -1,18 +1,70 @@
-function behavior() {
-	document.getElementById("behavior").innerHTML = "How is my child behaving? (jao is mai chaild bijeivin)";
+function pass() {
+	if(document.getElementById("pass").innerHTML == "Pass the Class (pas de clas)"){
+		document.getElementById("pass").innerHTML = "";
+	} else {
+	document.getElementById("pass").innerHTML = "Pass the Class (pas de clas)";
+	}
 }
-function hw() {
-	document.getElementById("hw").innerHTML = "Has my child given in all of the homework assignments? (jas mai chaild given in ol ov deur jomwerk)";
+function fail() {
+	if(document.getElementById("fail").innerHTML == "Fail the Class (feil de clas)"){
+		document.getElementById("fail").innerHTML = "";
+	} else {
+	document.getElementById("fail").innerHTML = "Fail the Class (feil de clas)";
+	}
 }
-function problem() {
-	document.getElementById("problem").innerHTML = "Is there a problem with my child in class? (is deur a problom uith mai chaild in clas)";
+function excellent() {
+	if(document.getElementById("excellent").innerHTML == "Excellent (exselent)"){
+		document.getElementById("excellent").innerHTML = "";
+	} else {
+	document.getElementById("excellent").innerHTML = "Excellent (exselent)";
+	}
 }
-function extra() {
-	document.getElementById("extra").innerHTML = "Is there something my child can do to improve their grade? (is deur somthin mai chaild can du tu impruv deur graid";
+function great() {
+	if(document.getElementById("great").innerHTML == "Very Good (veri gud)"){
+		document.getElementById("great").innerHTML = "";
+	} else {
+	document.getElementById("great").innerHTML = "Very Good (veri gud)";
+	}
 }
-function repeat() {
-	document.getElementById("repeat").innerHTML = "Could you repeat the question? (cud yiu ripit de cueschon)";
+function poor() {
+	if(document.getElementById("poor").innerHTML == "Poor (por)"){
+		document.getElementById("poor").innerHTML = "";
+	} else {
+	document.getElementById("poor").innerHTML = "Poor (por)";
+	}
 }
-function home() {
-	document.getElementById("home").innerHTML = "How can I help my child at home? (jao can ai jelp mai chaild at jom)";
+function average() {
+	if(document.getElementById("average").innerHTML == "Average (averech)"){
+		document.getElementById("average").innerHTML = "";
+	} else {
+	document.getElementById("average").innerHTML = "Average (averech)";
+	}
+}
+function improve() {
+	if(document.getElementById("improve").innerHTML == "Needs Improvement (nids impruvment)"){
+		document.getElementById("improve").innerHTML = "";
+	} else {
+	document.getElementById("improve").innerHTML = "Needs Improvement (nids impruvment)";
+	}
+}
+function progress() {
+	if(document.getElementById("progress").innerHTML == "Good Progress (gud progres)"){
+		document.getElementById("progress").innerHTML = "";
+	} else {
+	document.getElementById("progress").innerHTML = "Good Progress (gud progres)";
+	}
+}
+function danger() {
+	if(document.getElementById("danger").innerHTML == "In danger of failing the class (in dencher ov  feilin de clas)"){
+		document.getElementById("danger").innerHTML = "";
+	} else {
+	document.getElementById("danger").innerHTML = "In danger of failing the class (in dencher ov  feilin de clas)";
+	}
+}
+function advanced() {
+	if(document.getElementById("advanced").innerHTML == "Is ahead of the rest of the class (is ajed ov the rest ov de clas)"){
+		document.getElementById("advanced").innerHTML = "";
+	} else {
+	document.getElementById("advanced").innerHTML = "Is ahead of the rest of the class (is ajed ov the rest ov de clas)";
+	}
 }
