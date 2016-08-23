@@ -1,15 +1,15 @@
 function printer() {
-	if (document.getElementById("printer").innerHTML == "Where is the printer?  (Where is da printer?)"){
+	if (document.getElementById("printer").innerHTML == "Where is the printer?  (uer is da printer?)"){
 	    document.getElementById("printer").innerHTML = "";
 	} else{
-	document.getElementById("printer").innerHTML = "Where is the printer?  (Where is da printer?)";
+	document.getElementById("printer").innerHTML = "Where is the printer?  (uer is da printer?)";
 	}
 }
 function jefe() {
-	if (document.getElementById("jefe").innerHTML == "Where is the boss?  (Where is the boss?)"){
+	if (document.getElementById("jefe").innerHTML == "Where is the boss?  (uer is the boss?)"){
 		  document.getElementById("jefe").innerHTML = "";
 	} else{
-	document.getElementById("jefe").innerHTML = "Where is the boss?  (Where is the boss?)";
+	document.getElementById("jefe").innerHTML = "Where is the boss?  (uer is the boss?)";
 	}	
 }
 function help() {
@@ -20,86 +20,86 @@ function help() {
 	}	
 }
 function think() {
-	if (document.getElementById("think").innerHTML == "What do you think?(Wat do you think?)"){
+	if (document.getElementById("think").innerHTML == "What do you think?(Wat do iu think?)"){
 		 document.getElementById("think").innerHTML = "";
 	} else{
-	document.getElementById("think").innerHTML = "What do you think?(Wat do you think?)";
+	document.getElementById("think").innerHTML = "What do you think?(Wat do iu think?)";
 	}
 }
 function traducir() {
-	if (document.getElementById("traducir").innerHTML == "May you please translate that? (May you pleaz trans-late dat?)"){
+	if (document.getElementById("traducir").innerHTML == "May you please translate that? (Mai iu plis trans-late dat?)"){
 		 document.getElementById("traducir").innerHTML = "";
 	} else{
-	document.getElementById("traducir").innerHTML = "May you please translate that? (May you pleaz trans-late dat?)";
+	document.getElementById("traducir").innerHTML = "May you please translate that? (Mai iu plis trans-late dat?)";
 	}	
 }
 function repeat() {
-	if (document.getElementById("repeat").innerHTML == "May you please repeat that?(May u please repeat dat?)"){
+	if (document.getElementById("repeat").innerHTML == "May you please repeat that?(Mai iu plis ripit dat?)"){
 		document.getElementById("repeat").innerHTML = "";
 	} else{
-	document.getElementById("repeat").innerHTML = "May you please repeat that?(May u please repeat dat?)";
+	document.getElementById("repeat").innerHTML = "May you please repeat that?(Mai iu plis ripit dat?)";
 	}		
 }
 function plan() {
-	if (document.getElementById("plan").innerHTML == "What is the plan?(Wat is the plan?)"){
+	if (document.getElementById("plan").innerHTML == "What is the plan?(Wat is de plan?)"){
 		document.getElementById("plan").innerHTML = "";
 	} else{
-	document.getElementById("plan").innerHTML = "What is the plan?(Wat is the plan?)";
+	document.getElementById("plan").innerHTML = "What is the plan?(Wat is de plan?)";
 	}
 }
 function hora() {
-	if(document.getElementById("hora").innerHTML == "What time is it? (What time is it?)"){
+	if(document.getElementById("hora").innerHTML == "What time is it? (What taim is it?)"){
 		document.getElementById("hora").innerHTML = "";
 	} else{
-	document.getElementById("hora").innerHTML = "What time is it? (What time is it?)";
+	document.getElementById("hora").innerHTML = "What time is it? (What taim is it?)";
 	}
 }
 function hoy() {
-	if (document.getElementById("hoy").innerHTML == "What’s today date?(Wats tuday date ?)"){
+	if (document.getElementById("hoy").innerHTML == "What’s today's date?(Wats tudais dait?)"){
 		 document.getElementById("hoy").innerHTML = "";
 	} else{
-	document.getElementById("hoy").innerHTML = "What’s today date?(Wats tuday date ?)";
+	document.getElementById("hoy").innerHTML = "What’s today's date?(Wats tudais dait?)";
 	}
 }
 function eso() {
-	if (document.getElementById("eso").innerHTML == "What is that about?(What is that about?)"){
+	if (document.getElementById("eso").innerHTML == "What is that about?(Wat is dat abaut?)"){
 	     document.getElementById("eso").innerHTML = "";
 	} else{
-	document.getElementById("eso").innerHTML = "What is that about?(What is that about?)";
+	document.getElementById("eso").innerHTML = "What is that about?(Wat is dat abaut?)";
 	}
 }
 function como() {
-	if(document.getElementById("como").innerHTML == "How do I do that?(How du I du dat?)"){
+	if(document.getElementById("como").innerHTML == "How do I do that?(jao du ai du dat?)"){
 		document.getElementById("como").innerHTML = "";
 	} else{
-	document.getElementById("como").innerHTML = "How do I do that?(How du I du dat?)";
+	document.getElementById("como").innerHTML = "How do I do that?(jao du ai du dat?)";
 	}
 }
 function algun() {
-	if (document.getElementById("algun").innerHTML == "Any Advice?(Any ad-vice?)"){
+	if (document.getElementById("algun").innerHTML == "Any Advice?(eni ad-vice?)"){
 		 document.getElementById("algun").innerHTML = "";
 	} else{
-	document.getElementById("algun").innerHTML = "Any Advice?(Any ad-vice?)";
+	document.getElementById("algun").innerHTML = "Any Advice?(eni ad-vice?)";
 	}	
 }
 function reunion() {
-	if (document.getElementById("reunion").innerHTML == "When is the meeting? (When is the meeting?)"){
+	if (document.getElementById("reunion").innerHTML == "When is the meeting? (uen is de mitin?)"){
 		 document.getElementById("reunion").innerHTML = "";
 	} else{
-	document.getElementById("reunion").innerHTML = "When is the meeting? (When is the meeting?)";
+	document.getElementById("reunion").innerHTML = "When is the meeting? (uen is de mitin?)";
 	}	
 }
 function debe() {
-	if (document.getElementById("debe").innerHTML == "When is it due?(Wen is it due?)"){
+	if (document.getElementById("debe").innerHTML == "When is it due?(uen is it du?)"){
 		 document.getElementById("debe").innerHTML = "";
 	} else{
-	document.getElementById("debe").innerHTML = "When is it due?(Wen is it due?)";
+	document.getElementById("debe").innerHTML = "When is it due?(uen is it du?)";
 	}		
 }
 function normas() {
-	if (document.getElementById("normas").innerHTML == "What are the rules?  (Wat are the rules?)"){
+	if (document.getElementById("normas").innerHTML == "What are the rules?  (uat ar the ruls?)"){
 		 document.getElementById("normas").innerHTML = "";
 	} else{
-	document.getElementById("normas").innerHTML = "What are the rules?  (Wat are the rules?)";
+	document.getElementById("normas").innerHTML = "What are the rules?  (uat ar the ruls?)";
 	}	
 }
