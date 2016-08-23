@@ -21,10 +21,10 @@ function mon() {
 }
 
 function tues() {
-	if (document.getElementById("tues").innerHTML == "Tuesday(Tuesdai)"){
+	if (document.getElementById("tues").innerHTML == "Tuesday(Tiusdai)"){
 		 document.getElementById("tues").innerHTML="";
 	} else{
-	document.getElementById("tues").innerHTML="Tuesday(Tuesdai)";
+	document.getElementById("tues").innerHTML="Tuesday(Tiusdai)";
 	}
 }
 function mi() {
@@ -56,10 +56,10 @@ function ju() {
 	}
 }
 function frid() {
-	if (document.getElementById("frid").innerHTML == "Friday(Fridai)"){
+	if (document.getElementById("frid").innerHTML == "Friday(Fraidai)"){
 		 document.getElementById("frid").innerHTML="";
 	} else{
-	document.getElementById("frid").innerHTML="Friday(Fridai)";
+	document.getElementById("frid").innerHTML="Friday(Fraidai)";
 	}
 }
 function saba() {
@@ -70,39 +70,39 @@ function saba() {
 	}
 }
 function domi() {
-	if (document.getElementById("domi").innerHTML == "Sunday(Sundai)"){
+	if (document.getElementById("domi").innerHTML == "Sunday(Sondai)"){
 		 document.getElementById("domi").innerHTML="";
 	} else{
-    document.getElementById("domi").innerHTML="Sunday(Sundai)";
+    document.getElementById("domi").innerHTML="Sunday(Sondai)";
 	}
 		
 }
 function office() {
-	if (document.getElementById("office").innerHTML == "Office(Office)"){
+	if (document.getElementById("office").innerHTML == "Office(Ofis)"){
 	     document.getElementById("office").innerHTML="";
 	} else{
-	document.getElementById("office").innerHTML="Office(Office)";
+	document.getElementById("office").innerHTML="Office(Ofis)";
 	}
 }
 function cost() {
-	if (document.getElementById("cost").innerHTML == "Estimate(Estimate)"){
+	if (document.getElementById("cost").innerHTML == "Estimate(Estimait)"){
 		 document.getElementById("cost").innerHTML="";
 	} else{
-	document.getElementById("cost").innerHTML="Estimate(Estimate)";
+	document.getElementById("cost").innerHTML="Estimate(Estimait)";
 	}
 }
 function deposit() {
-	if (document.getElementById("deposit").innerHTML == "To deposit"){
+	if (document.getElementById("deposit").innerHTML == "To deposit (tu diposit)"){
 		 document.getElementById("deposit").innerHTML="";
 	} else{
-		document.getElementById("deposit").innerHTML="To deposit";
+		document.getElementById("deposit").innerHTML="To deposit (tu diposit)";
 	}
 }
 function salir() {
-   if (document.getElementById("salir").innerHTML == "Exit(Exit)"){
+   if (document.getElementById("salir").innerHTML == "Exit(eksit)"){
    	    document.getElementById("salir").innerHTML="";
    } else{
-	document.getElementById("salir").innerHTML="Exit(Exit)";
+	document.getElementById("salir").innerHTML="Exit(eksit)";
 	}
 }
 function pencil() {
@@ -127,10 +127,10 @@ function papel() {
 	}
 }
 function table() {
-	if (document.getElementById("table").innerHTML == "Table (Table)"){
+	if (document.getElementById("table").innerHTML == "Table (Taibel)"){
 		 document.getElementById("table").innerHTML="";
 	} else{
-	document.getElementById("table").innerHTML="Table (Table)";
+	document.getElementById("table").innerHTML="Table (Taibel)";
 	}	
 }
 function way() {
