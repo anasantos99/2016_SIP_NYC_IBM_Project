@@ -11,10 +11,10 @@ function hands() {
     }
 }
 function fingers() {
-	if(document.getElementById("fingers").innerHTML == "Fingers(fengers)"){
+	if(document.getElementById("fingers").innerHTML == "Fingers(fingers)"){
              document.getElementById("fingers").innerHTML = "";
     } else {
-        document.getElementById("fingers").innerHTML = "Fingers(fengers)";
+        document.getElementById("fingers").innerHTML = "Fingers(fingers)";
     }
 }
 function arms() {
@@ -67,10 +67,10 @@ function mouth() {
 	}
 }
 function legs() {
-	if(document.getElementById("legs").innerHTML == "Legs(ligs)"){
+	if(document.getElementById("legs").innerHTML == "Legs(legs)"){
 		document.getElementById("legs").innerHTML = "";
 	} else {
-		document.getElementById("legs").innerHTML = "Legs(ligs)";
+		document.getElementById("legs").innerHTML = "Legs(legs)";
 	}
 }
 function feet() {
