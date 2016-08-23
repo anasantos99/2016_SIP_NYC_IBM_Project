@@ -5,61 +5,113 @@ function my___hurtsormy___isbroken() {
 }        
 function hands() {
 	if(document.getElementById("hands").innerHTML == "Hands(jands)"){
-        document.getElementById("hands").innerHTML = "";
+             document.getElementById("hands").innerHTML = "";
     } else {
         document.getElementById("hands").innerHTML = "Hands(jands)";
     }
 }
 function fingers() {
 	if(document.getElementById("fingers").innerHTML == "Fingers(fengers)"){
-        document.getElementById("fingers").innerHTML = "";
+             document.getElementById("fingers").innerHTML = "";
     } else {
         document.getElementById("fingers").innerHTML = "Fingers(fengers)";
     }
 }
 function arms() {
 	if(document.getElementById("arms").innerHTML == "Arms(arms)"){
-      document.getElementById("arms").innerHTML = "";  
+               document.getElementById("arms").innerHTML = "";  
     } else {
         document.getElementById("arms").innerHTML = "Arms(arms)";
     }
 }
 function neck() {
-	document.getElementById("neck").innerHTML = "Neck(nek)";
+	if(document.getElementById("neck").innerHTML == "Neck(nek)"){
+		document.getElementById("neck").innerHTML = "";
+	} else {
+		document.getElementById("neck").innerHTML = "Neck(nek)";
+	}
 }
 function heads() {
-	document.getElementById("heads").innerHTML = "Head(jead)";
+	if(document.getElementById("heads").innerHTML == "Head(jead)"){
+		document.getElementById("heads").innerHTML = "";
+	} else {
+		document.getElementById("heads").innerHTML = "Head(jead)";
+	}
 }
 function eyes() {
-	document.getElementById("eyes").innerHTML = "Eyes(ais)";
+	if(document.getElementById("eyes").innerHTML == "Eyes(ais)"){
+		document.getElementById("eyes").innerHTML = "";
+	} else {
+		document.getElementById("eyes").innerHTML = "Eyes(ais)";
+	}
 }
 function nose() {
-	document.getElementById("nose").innerHTML = "Nose(nous)";
+	if(document.getElementById("nose").innerHTML == "Nose(nous)"){
+		document.getElementById("nose").innerHTML = "";
+	} else {
+		document.getElementById("nose").innerHTML = "Nose(nous)";
+	}
 }
 function ears() {
-	document.getElementById("ears").innerHTML = "Ears(ers)";
+	if(document.getElementById("ears").innerHTML == "Ears(ers)"){
+		document.getElementById("ears").innerHTML = "";
+	} else {
+		document.getElementById("ears").innerHTML = "Ears(ers)";
+	}
 }
 function mouth() {
-	document.getElementById("mouth").innerHTML = "Mouth(mouth)";
+	if(document.getElementById("mouth").innerHTML == "Mouth(mouth)"){
+		document.getElementById("mouth").innerHTML = "";
+	} else {
+		document.getElementById("mouth").innerHTML = "Mouth(mouth)";
+	}
 }
 function legs() {
-	document.getElementById("legs").innerHTML = "Legs(ligs)";
+	if(document.getElementById("legs").innerHTML == "Legs(ligs)"){
+		document.getElementById("legs").innerHTML = "";
+	} else {
+		document.getElementById("legs").innerHTML = "Legs(ligs)";
+	}
 }
 function feet() {
+	if(document.getElementById("feet").innerHTML == "Feet(fiit)") {
+	        document.getElementById("feet").innerHTML = "";	
+	} else {
 		document.getElementById("feet").innerHTML = "Feet(fiit)";
 	}
+}
 function ankles() {
-	document.getElementById("ankles").innerHTML = "Ankles(ankels)";
+	if(document.getElementById("ankles").innerHTML == "Ankles(ankels)"){
+		document.getElementById("ankles").innerHTML = "";
+	} else {
+		document.getElementById("ankles").innerHTML = "Ankles(ankels)";
+	}
 }
 function knees() {
-	document.getElementById("knees").innerHTML = "Knees(kniis)";
+	if(document.getElementById("knees").innerHTML == "Knees(kniis)"){
+		document.getElementById("knees").innerHTML = "";
+	} else {
+		document.getElementById("knees").innerHTML = "Knees(kniis)";
+	}
 }
 function back() {
-	document.getElementById("back").innerHTML = "Back(bak)";
+	if(document.getElementById("back").innerHTML == "Back(bak)"){
+		document.getElementById("back").innerHTML = "";
+	} else {
+		document.getElementById("back").innerHTML = "Back(bak)";
+	}
 }
 function stomach() {
-	document.getElementById("stomach").innerHTML = "Stomach(stomak)";
+	if(document.getElementById("stomach").innerHTML == "Stomach(stomak)"){
+		document.getElementById("stomach").innerHTML = "";
+	} else {
+		document.getElementById("stomach").innerHTML = "Stomach(stomak)";
+	}
 }
 function chest() {
-	document.getElementById("chest").innerHTML = "Chest(chest)";
+	if(document.getElementById("chest").innerHTML == "Chest(chest)"){
+		document.getElementById("chest").innerHTML = "";
+	} else {
+		document.getElementById("chest").innerHTML = "Chest(chest)";
+	}
 }
