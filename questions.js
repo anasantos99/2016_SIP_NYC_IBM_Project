@@ -13,7 +13,7 @@ function how() {
     }
 }
 function have() {
-	if(document.getElementById("have").innerHTML == "Have you had any pain lately?(jaf i jad ane pein leitli?)"){
+	if(document.getElementById("have").innerHTML == "Have you had any pain lately?(jaf iu jad ane pein leitli?)"){
         document.getElementById("have").innerHTML = "";
     } else {
         document.getElementById("have").innerHTML = "Have you had any pain lately?(jaf iu jad ane pein leitli?)";
