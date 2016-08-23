@@ -1,113 +1,226 @@
 function si() {
-		document.getElementById("si").innerHTML = "Yes (ies)";
+if (document.getElementById("si").innerHTML == "Yes(ies)"){
+	 document.getElementById("si").innerHTML="";
+	} else{
+	document.getElementById("si").innerHTML="Yes(ies)";
 	}
+}
 function no() {
-	document.getElementById("no").innerHTML = "No (No)";
+	if (document.getElementById("no").innerHTML == "No(No)"){
+		 document.getElementById("no").innerHTML="";
+	} else{
+	document.getElementById("no").innerHTML="No(No)";
+	}
 }
 function mon() {
-	document.getElementById("mon").innerHTML = "Monday (Mondai)";
+	if (document.getElementById("mon").innerHTML =="Monday (Mondai)"){
+		 document.getElementById("mon").innerHTML="";
+	} else{
+    document.getElementById("mon").innerHTML="Monday (Mondai)";
+	}
 }
+
 function tues() {
-	document.getElementById("tues").innerHTML = "Tuesday (Tuesdai)";
+	if (document.getElementById("tues").innerHTML == "Tuesday(Tuesdai)"){
+		 document.getElementById("tues").innerHTML="";
+	} else{
+	document.getElementById("tues").innerHTML="Tuesday(Tuesdai)";
+	}
 }
 function mi() {
-	document.getElementById("mi").innerHTML = "Wendnesday (Wensdai)";
+	if (document.getElementById("mi").innerHTML == "Wendnesday(Wensdai)"){
+		 document.getElementById("mi").innerHTML="";
+	} else{
+	document.getElementById("mi").innerHTML="Wendnesday(Wensdai)";
+	}
 }
 function hi() {
-	document.getElementById("hi").innerHTML = "Hello (Hello)";
+	if (document.getElementById("hi").innerHTML == "Hello(Hello)"){
+		 document.getElementById("hi").innerHTML="";
+	} else{
+	document.getElementById("hi").innerHTML="Hello(Hello)";
+	}
 }
 function what() {
-	document.getElementById("what").innerHTML = "What? (Wat)";
+	if (document.getElementById("what").innerHTML == "What?(Wat)"){
+		 document.getElementById("what").innerHTML="";
+	} else{
+	document.getElementById("what").innerHTML="What?(Wat)";
+	}
 }
 function ju() {
-	document.getElementById("ju").innerHTML = "Thursday (Thursdai)";
+	if (document.getElementById("ju").innerHTML == "Thursday(Thursdai)"){
+		 document.getElementById("ju").innerHTML="";
+	} else{
+	document.getElementById("ju").innerHTML="Thursday(Thursdai)";
+	}
 }
 function frid() {
-	document.getElementById("frid").innerHTML = "Friday (Fridai) ";
+	if (document.getElementById("frid").innerHTML == "Friday(Fridai)"){
+		 document.getElementById("frid").innerHTML="";
+	} else{
+	document.getElementById("frid").innerHTML="Friday(Fridai)";
+	}
 }
 function saba() {
-	document.getElementById("saba").innerHTML = "Saturday (Saturdai)";
+	if (document.getElementById("saba").innerHTML == "Saturday(Saturdai)"){
+         document.getElementById("saba").innerHTML="";
+	} else{
+	document.getElementById("saba").innerHTML="Saturday(Saturdai)";
+	}
 }
 function domi() {
-	document.getElementById("domi").innerHTML = "Sunday (Sundai)";
+	if (document.getElementById("domi").innerHTML == "Sunday(Sundai)"){
+		 document.getElementById("domi").innerHTML="";
+	} else{
+    document.getElementById("domi").innerHTML="Sunday(Sundai)";
+	}
+		
 }
 function office() {
-	document.getElementById("office").innerHTML = "Office (Office)";
+	if (document.getElementById("office").innerHTML == "Office(Office)"){
+	     document.getElementById("office").innerHTML="";
+	} else{
+	document.getElementById("office").innerHTML="Office(Office)";
+	}
 }
 function cost() {
-	document.getElementById("cost").innerHTML = "Estimate (Estimate)";
+	if (document.getElementById("cost").innerHTML == "Estimate(Estimate)"){
+		 document.getElementById("cost").innerHTML="";
+	} else{
+	document.getElementById("cost").innerHTML="Estimate(Estimate)";
+	}
 }
 function deposit() {
-	document.getElementById("deposit").innerHTML = "To deposit";
+	if (document.getElementById("deposit").innerHTML == "To deposit"){
+		 document.getElementById("deposit").innerHTML="";
+	} else{
+		document.getElementById("deposit").innerHTML="To deposit";
+	}
 }
 function salir() {
-	document.getElementById("salir").innerHTML = "   Exit (Exit)";
+   if (document.getElementById("salir").innerHTML == "Exit(Exit)"){
+   	    document.getElementById("salir").innerHTML="";
+   } else{
+	document.getElementById("salir").innerHTML="Exit(Exit)";
+	}
 }
 function pencil() {
-	document.getElementById("pencil").innerHTML = "Pencil (Pensil)";
-	
+	if (document.getElementById("pencil").innerHTML == "Pencil (Pensil)"){
+         document.getElementById("pencil").innerHTML="";
+	} else{
+	document.getElementById("pencil").innerHTML="Pencil (Pensil)";
+	}
 }
 function pen() {
-	document.getElementById("pen").innerHTML = "Pen (Pen)";
-	
+	if (document.getElementById("pen").innerHTML == "Pen (Pen)"){
+		 document.getElementById("pen").innerHTML="";
+	} else{
+	document.getElementById("pen").innerHTML="Pen (Pen)";
+	}
 }
 function papel() {
-	document.getElementById("papel").innerHTML = "Paper (Pay-pur)";
-	
+	if (document.getElementById("papel").innerHTML == "Paper (Pay-pur)"){
+		 document.getElementById("papel").innerHTML="";
+	} else{
+	document.getElementById("papel").innerHTML="Paper (Pay-pur)";
+	}
 }
 function table() {
-	document.getElementById("table").innerHTML = "Table (Table)";
-	
+	if (document.getElementById("table").innerHTML == "Table (Table)"){
+		 document.getElementById("table").innerHTML="";
+	} else{
+	document.getElementById("table").innerHTML="Table (Table)";
+	}	
 }
 function way() {
-	document.getElementById("way").innerHTML = "Hallway (Hal-way)";
-	
+	if (document.getElementById("way").innerHTML == "Hallway (Hal-way)"){
+		 document.getElementById("way").innerHTML="";
+	} else{
+	document.getElementById("way").innerHTML="Hallway (Hal-way)";
+	}			
 }
 function stairs() {
-	document.getElementById("stairs").innerHTML = "Stairs (Sta-irs)";
-	
+	if (document.getElementById("stairs").innerHTML == "Stairs (Sta-irs)"){
+		 document.getElementById("stairs").innerHTML="";
+	} else{
+    document.getElementById("stairs").innerHTML="Stairs (Sta-irs)";
+	}	
 }
 function room() {
-	document.getElementById("room").innerHTML = "Bathroom (Bath- rum)";
-	
+	if (document.getElementById("room").innerHTML == "Bathroom (Bath- rum)"){
+		 document.getElementById("room").innerHTML="";
+	} else{
+	document.getElementById("room").innerHTML="Bathroom (Bath- rum)";
+	}		
 }
 function roof() {
-	document.getElementById("roof").innerHTML = "Roof (Ruf)";
-	
+	if (document.getElementById("roof").innerHTML == "Roof (Ruf)"){
+		 document.getElementById("roof").innerHTML="";
+	} else{
+	document.getElementById("roof").innerHTML="Roof (Ruf)";
+	}	
 }
-function garg() {
-	document.getElementById("garg").innerHTML = "Garbage (Garb-age)";
-	
+function garg() { 
+	if (document.getElementById("garg").innerHTML == "Garbage (Garb-age)"){
+	     document.getElementById("garg").innerHTML="";
+	} else{
+	document.getElementById("garg").innerHTML="Garbage (Garb-age)";
+	}	
 }
 function weather() {
-	document.getElementById("weather").innerHTML = "Weather (We-ther)";
-	
+	if (document.getElementById("weather").innerHTML == "Weather (We-ther)"){
+	     document.getElementById("weather").innerHTML="";
+	} else{
+	document.getElementById("weather").innerHTML="Weather (We-ther)";
+	}	
 }
 function room() {
-	document.getElementById("room").innerHTML = "Bathroom (Bath-rum)";
-	
+	if (document.getElementById("room").innerHTML == "Bathroom (Bath-rum)"){
+		 document.getElementById("room").innerHTML="";
+	} else{
+	document.getElementById("room").innerHTML="Bathroom (Bath-rum)";
+	}	
 }
 function door() {
-	document.getElementById("door").innerHTML = "Door (Dor)";
-	
+	if (document.getElementById("door").innerHTML == "Door (Dor)"){
+		 document.getElementById("door").innerHTML="";
+	} else{
+	document.getElementById("door").innerHTML="Door (Dor)";
+	}	
 }
 function restu() {
-	document.getElementById("restu").innerHTML = "Resturant (Rest-urant) ";
-	
+	if (document.getElementById("restu").innerHTML == "Resturant (Rest-urant)"){
+		 document.getElementById("restu").innerHTML="";
+	} else{
+	document.getElementById("restu").innerHTML="Resturant (Rest-urant)";
+	}			
 }
 function store() {
-	document.getElementById("store").innerHTML = "Store (Sto-re) ";
-	
+	if (document.getElementById("store").innerHTML == "Store (Sto-re)"){
+		 document.getElementById("store").innerHTML="";
+	} else{
+	document.getElementById("store").innerHTML="Store (Sto-re)";
+	}		
 }
 function food() {
-	document.getElementById("food").innerHTML = "Food ( Fud)";
-	
+	if (document.getElementById("food").innerHTML == "Food ( Fud)"){
+	     document.getElementById("food").innerHTML="";
+	} else{
+	document.getElementById("food").innerHTML="Food ( Fud)";
+	}	
 }
 function suit() {
-	document.getElementById("suit").innerHTML = "Suit (Sut)";
-	
+	if (document.getElementById("suit").innerHTML == "Suit (Sut)"){
+	     document.getElementById("suit").innerHTML="";
+	} else{
+	document.getElementById("suit").innerHTML="Suit (Sut)";
+	}			
 }
 function chair() {
-	document.getElementById("chair").innerHTML = "Chair (sh-air)";
-	
+	if (document.getElementById("chair").innerHTML == "Chair (sh-air)"){
+ 	     document.getElementById("chair").innerHTML="";
+	} else{
+	document.getElementById("chair").innerHTML="Chair (sh-air)";
+	}		
 }
